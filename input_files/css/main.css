@@ -1,0 +1,269 @@
+.main {}
+
+.main__comments {}
+
+.comments__reader {}
+
+.comments__reader-feedback {
+  font: 16px 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.comments__feed {
+  display: flex;
+}
+
+.comments__feed-line {
+  size: 377px 5px;
+  background-color: #355baa;
+  margin-top: 28px;
+}
+
+.comments__feed-button {}
+
+.button {
+  background: transparent;
+  border: 5px solid #355baa;
+  font: 16px 'Roboto', sans-serif;
+  color: #355baa;
+  text-transform: uppercase;
+  padding: 17px 25px;
+  margin-left: 11px;
+
+  &:hover {
+    background: #355baa;
+    color: #fff;
+  }
+}
+
+.comments__feed-textarea {
+  margin-top: 32px;
+}
+
+.textarea-space {
+  width: 587px;
+  height: 110px;
+  resize: none;
+  padding: 11px 10px;
+}
+
+.comments__add-submit {
+  display: flex;
+  width: 619px;
+}
+
+.comment__add {
+  margin-top: 20px;
+}
+
+.comment__add-button {}
+
+.comment__add-link {
+  text-decoration: none;
+  font: 16px 'Roboto', sans-serif;
+  color: #355baa;
+}
+
+.comments__add-description {
+  font: 12px 'Roboto', sans-serif;
+  color: #959595;
+}
+
+.comments__sudmit {
+  margin-left: 140px;
+  margin-top: 28px;
+}
+
+.comments__sudmit-button {
+  background-color: #bdcbe8;
+  border: 1px solid #bdcbe8;
+  font: 14px 'Roboto', sans-serif;
+  color: #5071b6;
+  padding: 12px 13px;
+
+  &:hover {
+    background-color: #8da2cd;
+    color: #5e7cba;
+  }
+}
+
+.main__disqus {
+  margin-top: 53px;
+}
+
+.disqus__block {
+  display: flex;
+}
+
+.block__user {}
+
+.user__avatar {
+  size: 100px;
+  background-image: url('../assets/img/user1.png');
+}
+
+.user__reviews {
+  margin-top: 13px;
+}
+
+.user__block-word {
+  font: 12px 'Roboto', sans-serif;
+  color: #959595;
+}
+
+.reviews__count-color {
+  color: #000;
+}
+
+.valuation__count-number {
+  color: #20bd41;
+}
+
+.user__subscribe {
+  margin-top: 17px;
+}
+
+.block__comment {
+  margin-left: 28px;
+}
+
+.comment__user-name {}
+
+.user__name-title {
+  font-weight: bold;
+  color: #355baa;
+}
+
+.comment__user-date {
+  margin-top: 23px;
+}
+
+.comment__user-post {
+  margin-top: 20px;
+  width: 462px;
+}
+
+.user__post-text {
+  font: 16px 'Roboto', sans-serif;
+  color: #313131;
+}
+
+.comment__actions {
+  margin-top: 26px;
+  display: flex;
+}
+
+.two {
+  background: transparent;
+
+  &:hover {
+    background: #355baa;
+    color: #fff;
+  }
+}
+
+.comment__likes {
+  margin-left: 14px;
+  margin-top: 13px;
+  word-spacing: 5px;
+}
+
+.comment__likes-button {
+  text-decoration: none;
+}
+
+.likes__button-pic {}
+
+.comments__likes-count {
+  font: 19px 'Roboto', sans-serif;
+  color: #355baa;
+  padding-bottom: 2px;
+}
+
+.comment__shape {
+  margin-top: 22px;
+  margin-left: 17px;
+}
+
+.shape__unit {
+  width: 238px;
+  height: 1px;
+  background-color: #cdcdcd;
+}
+
+.comment__drop {
+  margin-left: 13px;
+}
+
+.comment__drop-circle {
+  size: 41px;
+  background-image: url('../assets/img/circle.png');
+
+  &:hover {
+    background-image: url('../assets/img/circlehov.png');
+  }
+}
+
+.empty {
+  height: 76px;
+}
+
+.user__two {
+  background-image: url('../assets/img/user2.png');
+}
+
+.comment__attachments {}
+
+.comment__attachments-files {
+  display: flex;
+  margin-top: 16px;
+}
+
+.picture {
+  background-image: url('../assets/img/mars.png');
+}
+
+.rtf {
+  background-image: url('../assets/img/icon_rtf.png');
+  margin-left: 10px;
+}
+
+.pdf {
+  background-image: url('../assets/img/icon_pdf.png');
+  margin-left: 10px;
+}
+
+.valuation__count-number--red {
+  color: #ed1c24;
+}
+
+.user__three {
+  background-image: url('../assets/img/user3.png');
+}
+
+.comments__additional {
+  width: 587px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.additional__roll {
+  display: flex;
+  margin-top: 75px;
+}
+
+.additional__roll-button {
+  font: 14px 'Roboto', sans-serif;
+  color: #355baa;
+  text-decoration: dotted;
+}
+
+.additional__roll_rectangle {
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #355baa;
+  margin-top: 8px;
+  margin-left: 2px;
+}
