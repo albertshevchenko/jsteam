@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="library/css/normalize.css">
+    <link rel="stylesheet" href="library/css/adjusment.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Book page</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="maincontent">
+      <header class="header"></header>
+      <main class="main">
+        <section class="main__comments">
+          <div class="comments__reader">
+            <h3 class="comments__reader-feedback">
+              Отзывы читателей
+            </h3>
+          </div>
+          <div class="comments__feed">
+            <div class="comments__feed-line"></div>
+            <div class="comments__feed-button">
+              <button class="button" type="button" name="leave feedback">
+                 Оставить отзыв
+              </button>
+            </div>
+          </div>
+          <div class="comments__feed-textarea">
+            <textarea name="comment" class="textarea-space" id="" placeholder="Введите текст сообщения"></textarea>
+          </div>
+          <div class="comments__add-submit">
+            <div class="comment__add">
+              <div class="comment__add-button">
+                <a href="#" class="comment__add-link">Прикрепить файл</a>
+              </div>
+              <span class="comments__add-description">
+                Допустимые форматы файлов: PDF, JPEG, PNG, GIF, RTF, DJVU <br />
+                Размер файла: не более 30мб
+              </span>
+            </div>
+            <div class="comments__sudmit">
+              <button class="comments__sudmit-button">
+                Отправить
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="main__disqus">
+          <div class="disqus__block">
+            <div class="block__user">
+              <div class="user__avatar"></div>
+              <div class="user__reviews">
+                <span class="user__block-word">
+                  Рецензий: <span class="reviews__count-color">50</span>
+                </span>
+              </div>
+              <div class="user__evaluation">
+                <span class="user__block-word">
+                  Оценки: <span class="valuation__count-number">+1833</span>
+                </span>
+              </div>
+              <div class="user__subscribe">
+                <a href="#" class="user__block-word">
+                  Подписаться
+                </a>
+              </div>
+            </div>
+            <div class="block__comment">
+              <div class="comment__user-name">
+                <span class="user__name-title">
+                  stylix
+                </span>
+              </div>
+              <div class="comment__user-date">
+                <date class="user__block-word" value="18.09.2016/18:00">
+                  18.09.2016 в 18:00
+                </date>
+              </div>
+              <div class="comment__user-post">
+                <p class="user__post-text">
+                  Марс был пуст, пока на нем не появились мы. В 2026 году первые колонисты с Земли отправляются на красную планету.
+                  Их миссия - создание благоприятных условий для жизни на Марсе, на поверхности которого первопроходцев уже дожидаются
+                  разнообразные устройства и механизмы, заброшенные сюда грузовыми кораблями. Будущие марсиане планируют растопить
+                  полярные шапки, поднять...
+                </p>
+              </div>
+              <div class="comment__actions">
+                <div class="comment__button">
+                  <button class="comments__sudmit-button two">
+                    Ответить
+                  </button>
+                </div>
+                <div class="comment__likes">
+                  <a href="" class="comment__likes-button"><img src="assets/img/heart.png" alt="heart" class="likes__button-pic"></a>
+                  <span class="comments__likes-count">14</span>
+                </div>
+                <div class="comment__shape">
+                  <div class="shape__unit"></div>
+                </div>
+                <div class="comment__drop">
+                  <div class="comment__drop-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="empty"></div>
+          <div class="disqus__block">
+            <div class="block__user">
+              <div class="user__avatar user__two"></div>
+              <div class="user__reviews">
+                <span class="user__block-word">
+                  Рецензий: <span class="reviews__count-color">88</span>
+                </span>
+              </div>
+              <div class="user__evaluation">
+                <span class="user__block-word">
+                  Оценки: <span class="valuation__count-number">+3024</span>
+                </span>
+              </div>
+              <div class="user__subscribe">
+                <a href="#" class="user__block-word">
+                  Отписаться
+                </a>
+              </div>
+            </div>
+            <div class="block__comment">
+              <div class="comment__user-name">
+                <span class="user__name-title">
+                  Дарья Пушкарская <span class="user__block-word">ответил(а)</span> <span class="user__name-title">stylix</span>
+                </span>
+              </div>
+              <div class="comment__user-date">
+                <date class="user__block-word" value="20.09.2016/11:50">
+                  20.09.2016 в 11:50
+                </date>
+              </div>
+              <div class="comment__user-post">
+                <p class="user__post-text">
+                  <span class="user__name-title">stylix</span>, Марс был пуст, пока на нем не появились мы. В 2026 году первые колонисты с Земли отправляются на красную планету.
+                  Их миссия - создание благоприятных условий для жизни на Марсе, на поверхности которого первопроходцев уже дожидаются
+                  разнообразные устройства и механизмы, заброшенные сюда грузовыми кораблями. Будущие марсиане планируют растопить
+                  полярные шапки, поднять поднять температуру атмосферы и заселить поверхность планеты бактериями... Но среди колонистов есть
+                  те, кто не согласен менять облик Красной планеты, те, кто желает объявить Марс независимым от Земли государством, и они готовы
+                  сражаться за свои убеждения до последнего!
+                </p>
+              </div>
+              <div class="comment__attachments">
+                <span class="user__block-word">Прикрепленные файлы:</span>
+                <div class="comment__attachments-files">
+                  <div class="user__avatar picture"></div>
+                  <div class="user__avatar rtf"></div>
+                  <div class="user__avatar pdf"></div>
+                </div>
+              </div>
+              <div class="comment__actions">
+                <div class="comment__button">
+                  <button class="comments__sudmit-button two">
+                    Ответить
+                  </button>
+                </div>
+                <div class="comment__likes">
+                  <a href="" class="comment__likes-button"><img src="assets/img/heart.png" alt="heart" class="likes__button-pic"></a>
+                  <span class="comments__likes-count">21</span>
+                </div>
+                <div class="comment__shape">
+                  <div class="shape__unit"></div>
+                </div>
+                <div class="comment__drop">
+                  <div class="comment__drop-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="empty"></div>
+          <div class="disqus__block">
+            <div class="block__user">
+              <div class="user__avatar user__three"></div>
+              <div class="user__reviews">
+                <span class="user__block-word">
+                  Рецензий: <span class="reviews__count-color">0</span>
+                </span>
+              </div>
+              <div class="user__evaluation">
+                <span class="user__block-word">
+                  Оценки: <span class="valuation__count-number--red">-5</span>
+                </span>
+              </div>
+              <div class="user__subscribe">
+                <a href="#" class="user__block-word">
+                  Подписаться
+                </a>
+              </div>
+            </div>
+            <div class="block__comment">
+              <div class="comment__user-name">
+                <span class="user__name-title">
+                  Неизвестный
+                </span>
+              </div>
+              <div class="comment__user-date">
+                <date class="user__block-word" value="23.09.2016/15:02">
+                  23.09.2016 в 15:02
+                </date>
+              </div>
+              <div class="comment__user-post">
+                <p class="user__post-text">
+                  Книга полная хрень...
+                </p>
+              </div>
+              <div class="comment__actions">
+                <div class="comment__button">
+                  <button class="comments__sudmit-button two">
+                    Ответить
+                  </button>
+                </div>
+                <div class="comment__likes">
+                  <a href="" class="comment__likes-button"><img src="assets/img/heart.png" alt="heart" class="likes__button-pic"></a>
+                  <span class="comments__likes-count">10</span>
+                </div>
+                <div class="comment__shape">
+                  <div class="shape__unit"></div>
+                </div>
+                <div class="comment__drop">
+                  <div class="comment__drop-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="comments__additional">
+          <div class="additional__roll">
+            <a href="#" class="additional__roll-button">Больше отзывов</a>
+            <div class="additional__roll_rectangle"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="maincontent"></div>
+  </div>
+</footer>
+</body>
+</html>
